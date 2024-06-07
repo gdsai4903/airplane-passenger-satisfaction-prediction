@@ -8,10 +8,6 @@ This repository contains an analysis of an airline passenger satisfaction survey
 - [Data Cleaning](#data-cleaning)
 - [Model Selection](#model-selection)
 - [Results](#results)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Project Description
 The dataset contains survey responses from airline passengers. The objective of the project is to analyze the data to determine the factors contributing to passenger satisfaction and to predict whether a passenger is satisfied based on these factors. This analysis includes data cleaning, exploratory data analysis (EDA), feature engineering, and building machine learning models.
@@ -44,22 +40,14 @@ The dataset used in this project contains various features related to passenger 
 - **Satisfaction**: Airline satisfaction level (Satisfied, neutral or dissatisfied)
 
 ## Data Cleaning
-The data cleaning process includes handling missing values, encoding categorical variables, and normalizing numerical features. Detailed steps can be found in the `Data_Cleaning.ipynb` notebook.
+The data cleaning process includes handling missing values, encoding categorical variables, and normalizing numerical features. Detailed steps can be found in the `data_cleaning.ipynb` notebook.
 
 ## Model Selection
 Two machine learning models were evaluated to predict passenger satisfaction:
 - **Decision Tree Classifier**
 - **Support Vector Machine (SVM)**
 
-The model selection process, including hyperparameter tuning and evaluation metrics, is documented in the `Model_Selection.ipynb` notebook.
+The model selection process, including hyperparameter tuning and evaluation metrics, is documented in the `model_selection.ipynb` notebook.
 
 ## Results
-The results of the analysis, including model performance metrics such as accuracy, precision, recall, and F1-score, are summarized in the `Model_Selection.ipynb` notebook. Visualizations and comparisons of the models' performance are also provided.
-
-## Installation
-To run the notebooks and reproduce the analysis, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/airline-satisfaction.git
-   cd airline-satisfaction
+The results of the analysis, including model performance metrics such as accuracy, precision, recall, and F1-score, are summarized in the `model_melection.ipynb` notebook. Visualizations and comparisons of the models' performance are also provided.
