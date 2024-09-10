@@ -1,6 +1,10 @@
-# Airline Passenger Satisfaction Analysis
+<h1 align="center">
+    Airline Passenger Satisfaction Analysis ✈️
+</h1>
 
+<p align="center">
 This repository contains an analysis of an airline passenger satisfaction survey dataset. The goal of this project is to identify factors that are highly correlated with passenger satisfaction and to build predictive models to classify passenger satisfaction.
+</p>
 
 ## Table of Contents
 - [Project Description](#project-description)
@@ -13,8 +17,9 @@ This repository contains an analysis of an airline passenger satisfaction survey
 The dataset contains survey responses from airline passengers. The objective of the project is to analyze the data to determine the factors contributing to passenger satisfaction and to predict whether a passenger is satisfied based on these factors. This analysis includes data cleaning, exploratory data analysis (EDA), feature engineering, and building machine learning models.
 
 ## Dataset
-The dataset used in this project contains various features related to passenger demographics, flight details, and satisfaction levels. Here are the features included in the dataset:
+The dataset used in this project contains various features related to passenger demographics, flight details, and satisfaction levels. Here are some of the features included in the dataset:
 
+Featurs: 
 - **Gender**: Gender of the passengers (Female, Male)
 - **Customer Type**: The customer type (Loyal customer, disloyal customer)
 - **Age**: The actual age of the passengers
@@ -22,29 +27,28 @@ The dataset used in this project contains various features related to passenger 
 - **Class**: Travel class (Business, Eco, Eco Plus)
 - **Flight distance**: The flight distance of this journey
 - **Inflight wifi service**: Satisfaction level (0:Not Applicable; 1-5)
-- **Departure/Arrival time convenient**: Satisfaction level
-- **Ease of Online booking**: Satisfaction level
 - **Gate location**: Satisfaction level
 - **Food and drink**: Satisfaction level
 - **Online boarding**: Satisfaction level
 - **Seat comfort**: Satisfaction level
-- **Inflight entertainment**: Satisfaction level
-- **On-board service**: Satisfaction level
-- **Leg room service**: Satisfaction level
-- **Baggage handling**: Satisfaction level
-- **Check-in service**: Satisfaction level
 - **Inflight service**: Satisfaction level
-- **Cleanliness**: Satisfaction level
 - **Departure Delay in Minutes**: Minutes delayed at departure
 - **Arrival Delay in Minutes**: Minutes delayed at arrival
+
+Target:
 - **Satisfaction**: Airline satisfaction level (Satisfied, neutral or dissatisfied)
 
 ## Data Cleaning
 The data cleaning process includes handling missing values, encoding categorical variables, and normalizing numerical features. Detailed steps can be found in the `data_cleaning.ipynb` notebook.
 
-![image](./images/download.png)
-![iamge](./images/download%20(1).png)
-
+<div style="display: flex; justify-content: center">
+    <div>
+        <img src="./images/download.png" width=400px>
+    </div>
+    <div style="align-self: center; margin: 20px">
+        <img src="./images/download (1).png" width=400px>
+    </div>
+</div>
 ## Model Selection
 Two machine learning models were evaluated to predict passenger satisfaction:
 - **Decision Tree Classifier**
