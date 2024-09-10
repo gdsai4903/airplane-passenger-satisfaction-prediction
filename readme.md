@@ -41,13 +41,11 @@ Target:
 ## Data Cleaning
 The data cleaning process includes handling missing values, encoding categorical variables, and normalizing numerical features. Detailed steps can be found in the `data_cleaning.ipynb` notebook.
 
-<div style="display: flex; justify-content: center">
-    <div>
-        <img src="./images/download.png" width=400px>
-    </div>
-    <div style="align-self: center; margin: 20px">
-        <img src="./images/download (1).png" width=400px>
-    </div>
+<div align="center">
+    <img src="./images/download.png" width=400px>
+</div>
+<div align="center">
+    <img src="./images/download (1).png" width=400px>
 </div>
 ## Model Selection
 Two machine learning models were evaluated to predict passenger satisfaction:
