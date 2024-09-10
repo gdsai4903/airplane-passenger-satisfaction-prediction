@@ -42,6 +42,9 @@ The dataset used in this project contains various features related to passenger 
 ## Data Cleaning
 The data cleaning process includes handling missing values, encoding categorical variables, and normalizing numerical features. Detailed steps can be found in the `data_cleaning.ipynb` notebook.
 
+![image](./images/download.png)
+![iamge](./images/download%20(1).png)
+
 ## Model Selection
 Two machine learning models were evaluated to predict passenger satisfaction:
 - **Decision Tree Classifier**
